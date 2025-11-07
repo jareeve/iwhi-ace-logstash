@@ -1,0 +1,19 @@
+ELKConnections:
+  elkhttps:
+    elkProtocol: 'https'
+    hostname: 'xxxxx'
+    port: 443
+    uploadIntervalMilliSecs: 30000
+    elkCredential: elkcreds
+Log:
+  elkLog: true
+  elkConnections: 'elkhttps'
+Events:
+  BusinessEvents:
+    ELK:
+      enabled: true               
+      outputFormat: 'json'    
+      elkConnections: 'elkhttps'
+Monitoring:
+  MessageFlow:
+    publicationOn: 'active'
