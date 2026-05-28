@@ -67,14 +67,14 @@ spec:
     spec:
       containers:
       - resources:
-        limits:
-          cpu: 300m
-          ephemeral-storage: 10Gi
-          memory: 368Mi
-        requests:
-          cpu: 300m
-          ephemeral-storage: 1Gi
-          memory: 368Mi
+          limits:
+            cpu: 300m
+            ephemeral-storage: 10Gi
+            memory: 368Mi
+          requests:
+            cpu: 300m
+            ephemeral-storage: 1Gi
+            memory: 368Mi
         name: logstash
         image: docker.elastic.co/logstash/logstash:9.1.3
         ports:
