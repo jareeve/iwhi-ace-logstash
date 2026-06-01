@@ -37,7 +37,7 @@ metadata:
   name: logstash-secrets
 type: Opaque
 stringData:
-  ELASTIC_CLOUD_ID: "62b6fb70092c48918cc131d31a37c237:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvOjQ0MyQ5YzFhZTRhMzQ4Mjc0MmE3OGI4YzQ0ZmNlZDE5YTQxMSQ5NTE5NTZkODc3Nzk0YmE3YWVkNzIzMzg0NjIwNDRjZg=="
+  ELASTIC_CLOUD_ID: "xxxxx:xxxxx"
   ELASTIC_CLOUD_AUTH: "elastic:xxxxx"
 ---
 apiVersion: v1
